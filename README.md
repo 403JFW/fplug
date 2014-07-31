@@ -1,6 +1,5 @@
 fplug
 =====
-
 F-PLUG を Linux から利用するためのユーティリティ群.
 
 record_fplug.c
@@ -15,6 +14,11 @@ rsync を用いて他のサーバーへデータの転送を行うことも可�
 run_rfcomm.sh
 -------------
 rfcomm で F-PLUG に接続し, 接続が切断された場合は自動的に再接続を行うシェルスクリプト.
+
+run_rfcomm2.sh
+--------------
+rfcomm で F-PLUG に接続し, 接続が切断された場合は自動的に再接続を行うシェルスクリプト.
+`/etc/bluetooth/rfcomm.conf` でアドレス等が設定済みの場合に用いる.
 
 Special thanks
 --------------
